@@ -1,0 +1,257 @@
+body {
+  font-family: Playfair Display;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-image: linear-gradient(#191970, #7b68ee);
+  display: flex;
+  height: 150px;
+  position:sticky;
+  top:0;
+  z-index: 9999;
+  border-bottom:solid 1px black;
+}
+#logo {
+  margin-top: 10px;
+  width: 130px;
+  height: 80px;
+  padding: 25px;
+  position: static;
+}
+#navList {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+.navListElements {
+  display: table-cell;
+  position: relative;
+  padding: 15px;
+  margin-top: 50px;
+}
+.navListElements:hover {
+  text-decoration: underline;
+  transition: transform 0.25s ease-out;
+}
+.navListElements > a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  cursor: pointer;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.navListElements > a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  cursor: pointer;
+}
+a:hover:after {
+  width: 100%;
+  left: 0;
+  cursor: pointer;
+}
+
+footer {
+  background-image: linear-gradient(#191970, #7b68ee);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: start;
+  justify-content: space-around;
+  padding: 20px;
+  height: 200px;
+}
+.footerItem {
+  display: flex;
+  flex-direction: row;
+}
+.footerIMG {
+  height: 20px;
+  width: 20px;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+#title {
+  border-bottom: 1px solid white;
+  width: 150px;
+}
+.socialMediaLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -18px;
+}
+#contactSection {
+  padding-left: 20px;
+}
+#mediaIcons {
+  display: flex;
+  flex-direction: row;
+}
+.footerSocialIMG {
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+}
+#footerLogo {
+  width: 150px;
+  height: 100px;
+  justify-content: start;
+  float: left;
+}
+.footerSocialIMG:hover {
+  cursor: pointer;
+}
+#footerList {
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+.footerListElements {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: white;
+  margin-bottom: 5px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+  color: white;
+}
+.footerListElements:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.characterBox1,
+.characterBox2,
+.characterBox3,
+.characterBox4 {
+  border: #191970 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0px 80px;
+  width: 150px;
+  height: auto;
+}
+.characterBox1:hover {
+  cursor: pointer;
+  background-image: linear-gradient(white, aliceblue);
+}
+.characterBox2:hover {
+  cursor: pointer;
+  background-image: linear-gradient(white, aliceblue);
+}
+.characterBox3:hover {
+  cursor: pointer;
+  background-image: linear-gradient(white, aliceblue);
+}
+.characterBox4:hover {
+  cursor: pointer;
+  background-image: linear-gradient(white, aliceblue);
+}
+.main > img {
+  width: 310px;
+  height: 310px;
+}
+.mainSection {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.contacts > img {
+  width: 20px;
+  margin-top: 15px;
+  height: 20px;
+}
+.contacts {
+  display: flex;
+  flex-direction: row;
+}
+.contacts > p {
+  margin: 8px;
+  padding: 5px;
+}
+
+.contacts > p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.main {
+  margin-bottom: 10px;
+}
+.headText {
+  font-weight: 600;
+  width: 90%;
+  margin-left: 100px;
+}
+.additionalInfo1,
+.additionalInfo2,
+.additionalInfo3,
+.additionalInfo4 {
+  display: none;
+  text-align: left;
+  font-stretch: expanded;
+  border: #191970 1px solid;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 80px;
+  width: 80%;
+  height: auto;
+}
+#allAdditionalInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+#boxes {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 20px;
+  font-weight: bold;
+}
+.addInfoImages > img {
+  width: 400px;
+  height: 260px;
+  margin-bottom: 20px;
+}
+.addInfoImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,103 @@
+      .container {
+        /*            background-color: rgba(95,116,156,1);*/
+        background-color: rgba(17, 66, 120, 0.69);
+        /*        border:1px solid black;*/
+        padding-bottom: 3px;
+      }
+      .title {
+        display: block;
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        padding-top: 2px;
+      }
+      #title-text {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 8px groove;
+        border-color: rgb(255, 212, 175, 1);
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5px;
+        padding-left: 3px;
+        padding-right: 3px;
+      }
+      .main {
+        /*            width:90%;*/
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        margin: 30px 50px;
+        margin-bottom: 0px;
+        background-image: linear-gradient(white, #f5f5f5);
+        text-align: justify;
+        display: flex;
+        opacity: 0;
+        /*            animation: fadeInUp 1s ease-out forwards;*/
+      }
+      .animate {
+        opacity: 1;
+        animation: fadeInUp 0.9s ease-out forwards;
+      }
+      @keyframes fadeInUp {
+        0% {
+          opacity: 0;
+          transform: translateY(100px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .main-text {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: justify;
+        width: 60%;
+        padding-right: 20px;
+      }
+      .img-div {
+        display: block;
+        margin: 4px auto;
+        width: 38%;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 3px;
+      }
+      .text-1 {
+        margin-bottom: 10px;
+      }
+      .firstsentence {
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .sponsors {
+        display: block;
+      }
+      .sponsors-images {
+        display: block;
+        margin: 0 auto;
+        /*            width:85%;*/
+        text-align: center;
+        vertical-align: center;
+      }
+      .image {
+        width: 60%;
+        height: auto;
+        /*            margin:auto;
+            margin-right: 20px;*/
+      }
+      .img-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .sponsors-images-row {
+        display: flex;
+      }

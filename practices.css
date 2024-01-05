@@ -1,0 +1,62 @@
+      h1 {
+        padding: 0px;
+      }
+      .title {
+        text-align: center;
+        /*            justify-content:center;
+            align-items:center;*/
+        /*            padding:0px;*/
+      }
+      .box {
+        width: 50%;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        margin-right: 10px;
+        opacity: 0;
+      }
+      .boxes {
+        margin-bottom: 13px;
+      }
+      .rows {
+      }
+      .practices {
+        padding-left: 15%;
+        padding-right: 15%;
+      }
+      .innerBox {
+        font-size: 39px;
+      }
+      .imgBox {
+        width: 90px;
+        height: auto;
+        object-fit: cover;
+      }
+      .animate {
+        opacity: 1;
+        animation: fadeInUp 0.9s ease-out forwards;
+      }
+      @keyframes fadeInUp {
+        0% {
+          opacity: 0;
+          transform: translateY(100px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .rows-practices {
+        display: flex;
+        padding-left: 15%;
+        padding-right: 15%;
+        margin-bottom: 40px;
+        justify-content:space-between;
+      }
+      .practice {
+        font-size: 17px;
+        font-weight: bolder;
+        text-align: justify;
+        margin-right: 60px;
+        opacity: 0;
+        flex:1;
+      }

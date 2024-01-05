@@ -1,0 +1,79 @@
+        .container{
+    		background-image: url('justice.jpg');
+            
+            background-repeat: no-repeat;
+            animation: fadeIn 1.3s ease-in-out forwards;
+    	}
+        @keyframes fadeIn {
+          0% {
+            background-color: black;
+            opacity: 0;
+          }
+          100% {
+            background-color: transparent;
+            opacity: 1;
+          }
+        }
+
+    	h1{
+    		text-align:center;
+    	}
+    	ul{
+    		list-style-type:none;
+    	}
+        .address{
+/*            background-image: url('justice.jpg');*/
+            color:white;
+/*            width:60%;*/
+/*            margin: 0px auto;*/
+        }
+    	.form{
+    		margin:0px auto;
+    		border-radius:18px;
+    		width:46%;
+    		border:solid 1px #3d1a2e;
+    		background-image: url('rights.png');
+			background-repeat: repeat;
+    		background-position: center;
+    		background-size: contain;
+            color:white;
+            font-family:Georgia;
+    	}
+    	
+    	#problem-box{
+    		resize:none;
+    	}
+        .info-item{
+              display: flex;
+  flex-direction: row;
+        }
+        .form li{
+            margin:5px;
+        }
+        .form ul{
+            margin-bottom:0px;
+        }
+        .form input, select, option{
+            width: 220px;
+            height: 23px;
+        }
+        #submitt{
+            color:red;
+            display:flex;
+            justify-content: right;
+            margin-right:36px;
+            text-align:center;
+        }
+        #submitt button{
+            width: 100px;
+            height: 40px; 
+            padding: 9px;
+            font-size: 16px;
+            cursor:pointer;
+            display: inline-block;
+            background-color: rgba(232, 235, 255, 1.0);
+        }
+        #submitt button:hover{
+            border-color: #A0FF66;
+            border-width:4px;
+        }
